@@ -485,3 +485,31 @@
     color: #fff;
     font-size: 13pt;
 }
+
+/* Footer section css  */
+.footer-wrap{
+    float: left;
+    width: 100%;
+    background: #2E3B4E;
+}
+.footer-inner{
+    padding: 20px;
+}
+.copyRight-txt{
+    text-align: center;
+}
+.copyRight-txt span{
+    color: #fff;
+    font-size: 13pt;
+
+}
+.copyRight-txt span a{
+    color: #fff;
+    text-decoration: none;
+    opacity: .5;
+    transition: all .4s ease;
+}
+.copyRight-txt span a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
