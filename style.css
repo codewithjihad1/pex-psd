@@ -454,3 +454,34 @@
     width: 42%;
     height: 100%;
 }
+
+
+/* Contact section css  */
+.contact-wrap{
+    float: left;
+    width: 100%;
+    background: #E7526B;
+    min-height: 460px;
+}
+.contact-inner{
+    padding: 100px 0;
+    max-width: 420px;
+}
+.contact-title{
+    margin-bottom: 20px;
+}
+.contact-title h2{
+    font-size: 15pt;
+    color: #fff;
+}
+.contact-desc{
+    margin-bottom: 40px;
+}
+.contact-desc p{
+    font-size: 12pt;
+    color: #FDF4F6;
+}
+.contact-link a{
+    color: #fff;
+    font-size: 13pt;
+}
