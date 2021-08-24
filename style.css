@@ -292,6 +292,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 .exp-wrap::before{
     position: absolute;
@@ -341,4 +342,115 @@
     background: #8824CD;
     color: #fff;
     font-size: 17pt;
+}
+
+
+/* Article Section start  */
+.article-wrap{
+    float: left;
+    width: 100%;
+    background: url(img/img-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.article-wrap::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(#fff0, #000000d4);
+}
+.article-inner{
+    min-height: 720px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.art-content{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+.art-button{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.art-button button{
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 13pt;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+    background: transparent;
+}
+.art-title{
+    margin-bottom: 30px;
+}
+.art-title h1{
+    font-size: 40pt;
+    color: #fff;
+}
+.art-user{
+    
+}
+.art-user .user-icon{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.user-icon img{
+    width: 100%;
+    height: 100%;
+}
+.user-txt{
+    float: left;
+    line-height: 50px;
+    margin-left: 15px;
+}
+.user-txt span{
+    color: #fff;
+    font-size: 13pt;
+}
+
+
+/* About2 section css  */
+.about2-wrap{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.about2-txt{
+    float: left;
+    width: 56%;
+    padding: 100px 0;
+}
+.about2-txt .about-title{
+    font-size: 25px;
+    color: #3A4D60;
+    margin-bottom: 25px;
+}
+.about2-txt p{
+    font-size: 12pt;
+    color: #3A4D60;
+    margin-bottom: 25px;
+}
+.about2-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(img/img-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 42%;
+    height: 100%;
 }
